@@ -1,110 +1,129 @@
 /* Common Shared style */
-body{
+body {
     font-family: 'lato', sans-serif;
     font-family: "Open Sans", sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #fd6e0a;
 }
-.button-primary{
-   border-radius: 5px;
-   background-color: #fd6e0a; 
-   border: 0;
-   color: white;
-   font-size: 20px;
-   font-weight: 700px;
-   padding: 15px 35px;
+
+.button-primary {
+    border-radius: 5px;
+    background-color: #fd6e0a;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 15px 35px;
 }
 
-.section-title{
+.section-title {
     color: #181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
 }
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav a {
     text-decoration: none;
     color: #474747;
 }
+
 /* header related style */
-.header{
+.header {
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png');
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     background-position: bottom right;
 
 }
-.banner{
+
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px ;   
+
+.banner-content {
+    max-width: 500px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     color: #474747;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700px;
-    margin-top: 5px; 
+    margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
+
+.banner-description {
     margin-bottom: 30px;
 }
 
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* about section styles */
-.about{
-   padding: 130px;
-   border-radius: 10px;
-   background:#fff8f3;
-   margin: 130px 0;  
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.abot-info{
+.about-info {
     text-align: center;
+}
+
+.info-title{
+    color: #757575;
 }
